@@ -1,0 +1,27 @@
+<templateSet group="Zen CSS">
+  <template name="xs" value="@include xs{&#10;    $END$&#10;}" description="xs media query" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="xxs" value="@include xxs{&#10;    $END$&#10;}" description="xxs media query" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="sm" value="@include sm{&#10;    $END$&#10;}" description="sm media query" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="md" value="@include md{&#10;    $END$&#10;}" description="md media query" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="lg" value="@include lg{&#10;    $END$&#10;}" description="lg media query" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>

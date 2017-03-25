@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="migration-refresh-seed" description="vagrant artisan migration:refresh --seed" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="CURRENT_VAGRANT" CONNECTION_ID="vagrant:C:\Users\Jan Gabrhel\Homestead">
+    <exec>
+      <option name="COMMAND" value="php" />
+      <option name="PARAMETERS" value="artisan migrate:refresh --seed" />
+      <option name="WORKING_DIRECTORY" value="/home/vagrant/homestead/$ProjectName$" />
+    </exec>
+  </tool>
+</toolSet>
