@@ -1,7 +1,0 @@
-<templateSet group="Zen HTML">
-  <template name="ass" value="{{asset('$SELECTION$')}}" description="wrap a string to asset helper" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-</templateSet>
