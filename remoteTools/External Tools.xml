@@ -6,4 +6,11 @@
       <option name="WORKING_DIRECTORY" value="/home/vagrant/homestead/$ProjectName$" />
     </exec>
   </tool>
+  <tool name="migration--seed" description="vagrant artisan migration --seed" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="NONE">
+    <exec>
+      <option name="COMMAND" value="php" />
+      <option name="PARAMETERS" value="artisan migrate --seed" />
+      <option name="WORKING_DIRECTORY" value="/home/vagrant/homestead/$ProjectName$" />
+    </exec>
+  </tool>
 </toolSet>
